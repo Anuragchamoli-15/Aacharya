@@ -8,8 +8,8 @@ import Items from "./components/Items.jsx";
 
 const router = createBrowserRouter(
   [
-  { path: "", element: <App />, children:[
-    {path: "", element: < Items/>},
+  { path: "/Aacharya", element: <App />, children:[
+    {index: true, element: < Items/>},
     { path: "form-bar", element: <Contect /> },
   ] },
 ]);
