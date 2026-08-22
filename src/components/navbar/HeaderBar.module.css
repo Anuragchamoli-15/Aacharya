@@ -53,5 +53,9 @@
 
         .items{
             gap: 1.5em;
+
+            a{
+                font-size: 16px;
+            }
         }
 }

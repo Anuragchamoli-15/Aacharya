@@ -4,9 +4,9 @@ import style from "./service.module.css";
 
 function ServiceBar() {
 
-  const [currntaction, setaction] = useState("viewmore")
+  const [currntaction, setaction] = useState("")
   const handlclick = ()=>{
-    setaction("lessview")
+    setaction(currntaction === ""? "View More": "")
   }
   return (
     <>
@@ -15,13 +15,13 @@ function ServiceBar() {
       </center>
 
       <section className={style.mastercontainer}>
-        <div className={currntaction === "lessview"? style.master2: style.master} >
+        <div className={currntaction === "View More"? style.master2: style.master} >
         <Services ></Services>
         {/* <Services ></Services> */}
         </div>
         <center>
 
-        <button className={style.viewbutton} onClick={handlclick}>{currntaction}</button>
+        <button className={style.viewbutton} onClick={handlclick}>View More</button>
         </center>
       </section>
     </>

@@ -1,8 +1,8 @@
   .carts {
-  width: 30vw;
+  width: 32vw;
   height: 95%;
   padding: 10px;
-  margin: 10px;
+  margin: 9px;
   flex-shrink: 0;
   text-align: center;
   border-radius: 15px;

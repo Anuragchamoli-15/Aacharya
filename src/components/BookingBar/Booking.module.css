@@ -34,7 +34,20 @@
 
 @media (max-width: 480px){
    .bookingBar{
-       
-       margin: 3.5em 1em 1.2em;
+        margin: 3.5em 1em 1.2em;
+        gap: 10px;
+        p{
+            font-size: 18px;
+            margin: 0;
+        }
+
+
 } 
+.bookbtn{
+        width: 80px;
+        font-size: 12px;
+        height: 33px;
+    
+
+}
 }

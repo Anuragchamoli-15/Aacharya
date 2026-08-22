@@ -37,22 +37,25 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 90vw;
-        height: 90vh;
+        height: 80vh;
         overflow: hidden;
       place-items: center;
+      background:none;
+  box-shadow: none;
     }
   .heroIfoBar{
     grid-area: 2/1/3/2;
     gap: 0;
      display: flex;
      margin: 0;
-     place-items: center;
+     /* place-items: center; */
      font-size: 15px;
+     margin-left: 15px;
 
   }
   .heroImagBar{
     h2{
-      font-size:1.5em ;
+      display: none;
     }
     gap: 10px;
     width: 100%;
@@ -60,5 +63,10 @@
   }
   .heroImagBar img{ 
     width: 80%;
+    height: 90%;
+  }
+
+  p{
+    margin: 0;
   }
 }
