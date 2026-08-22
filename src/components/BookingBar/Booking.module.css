@@ -1,0 +1,40 @@
+.bookingBar{
+    height: 10%;
+    display: flex;
+    padding-left: 2em;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 2.5em 0 ;
+}
+
+.bookbtn{
+    width: 100px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #806C79;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.533);
+    border: none;
+    font-size: 1rem;
+}
+.bookbtn:hover{
+    background-color:#95818E ;
+    box-shadow: 0 0 14px black;
+}
+
+.bookbtn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    /* border: none; */
+}
+
+@media (max-width: 480px){
+   .bookingBar{
+       
+       margin: 3.5em 1em 1.2em;
+} 
+}

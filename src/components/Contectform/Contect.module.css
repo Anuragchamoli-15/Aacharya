@@ -1,0 +1,58 @@
+/* ::before .formcontainer{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+} */
+
+/* .formcontainer{
+    display: flex;
+    justify-content: center;
+    height: 89.5vh;
+    align-items: center;
+    background-color: white;
+    background:linear-gradient(to right rgb(255, 127, 127) white);
+} */
+ r
+.divcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    row-gap: 11px;
+    padding: 15px;
+    align-items: center;
+    background-color: rgb(230, 134, 134);
+    /* background: linear-gradient(to right blue red); */
+}
+
+.inputbar{
+        width: 80%;
+    border-radius: 8px;
+    border:1px solid black;
+    transition: all;
+    padding-left: 5PX;
+    
+}
+.inputbar:hover{
+    border: 1px solid blue;
+}
+
+.optionDropdown{
+    display: flex;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.optionBar{
+    border-radius: 8px;
+    border: none;
+}
+
+.optioninputbar{
+    border: none;
+    width: 80%;
+    border-radius: 8px;
+}
