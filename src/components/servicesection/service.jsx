@@ -8,10 +8,6 @@ import no5 from "../../assets/no5.jpeg";
 function Services() {
   return (
     <>
-      {/* <center>
-        <h3>Our Pujas</h3>
-      </center> */}
-      {/* <div className={style.serviceBar}> */}
 
         <div className={style.carts}>
           <img src={no2} alt="piture" />
@@ -19,7 +15,7 @@ function Services() {
           <h2>Hawan</h2>
           <button className={style.btn}>
             {" "}
-            <a href="" className={style.innerbtn}>
+            <a href="/Aacharya/Hawan/" className={style.innerbtn}>
               view more
             </a>
           </button>

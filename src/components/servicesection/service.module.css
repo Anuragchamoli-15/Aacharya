@@ -54,17 +54,15 @@ img{
 .master{
   display: flex;
   width: max-content;
-  /* animation: cartss 60s linear infinite; */
+  animation: cartss 60s linear infinite;
 }
 .master2{
    display: grid;
+
    grid-template-columns:  repeat(3, 1fr) ;
    grid-template-rows: repeat(2, 1fr);
    height: auto;
-   /* justify-content: center; */
    padding-left: 15px;
-   /* align-items: center; */
-  /* width: max-content; */
 }
 
 @keyframes cartss {
@@ -92,9 +90,12 @@ center h3{
 
 @media (max-width: 480px){
   .master{
+  display: flex;
+  width: max-content;
+  }
+  .master2{
     display: grid;
-    width: 100vw;
-    place-items: center;
+    grid-template-columns: 1fr;
   }
   .carts{
  
