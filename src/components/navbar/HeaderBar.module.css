@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #272127;
+    /* background-color: #272127; */
     z-index: 1;
 }
 
@@ -30,9 +30,10 @@
 }
 
 .container h1{
- background: linear-gradient(to right, red, blue );
+ /* background: linear-gradient(to right, red, blue ); */
+ color: #F5F3EE;
  background-clip: text;
- color: transparent;
+ /* color: transparent; */
  font-family: Comic Sans MS,  cursive;
  font-weight: 800;
 }

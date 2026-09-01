@@ -11,7 +11,18 @@ body {
   /* height: 100vh; */
   padding: 0;
   margin: 0;
-background: linear-gradient(135deg, #211C21, #2D252C, #3A3038, #463943); 
+    background: 
+    
+    
+    linear-gradient(
+      100deg,
+      #030712 0%,
+      #05101d 0%,
+      #010811 55%
+
+  );
+
+
 background-attachment: fixed;
 
 }

@@ -9,7 +9,36 @@
     margin: 2.5em 0 ;
 }
 
-.bookbtn{
+.bookbtn {
+    background: linear-gradient(
+        135deg,
+        #D6B56A,
+        #B88A3B
+    );
+
+    color: #101522;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 13px 26px;
+
+    font-weight: 600;
+
+    box-shadow:
+        0 8px 25px rgba(201, 164, 92, 0.18);
+
+    transition: 0.3s ease;
+}
+
+.bookbtn:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 35px rgba(201, 164, 92, 0.3);
+}
+
+/* .bookbtn{
     width: 100px;
     height: 38px;
     border-radius: 10px;
@@ -22,7 +51,7 @@
 .bookbtn:hover{
     background-color:#95818E ;
     box-shadow: 0 0 14px black;
-}
+} */
 
 .bookbtn a{
     color: white;

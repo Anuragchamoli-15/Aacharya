@@ -7,8 +7,8 @@
   height: 60vh;
   margin: auto ;
   flex-shrink: 0;
-  background-color:#302830;
-  box-shadow: 0 0 10px black;
+  /* background-color:#302830; */
+  box-shadow: 0 0 10px rgb(90, 89, 89);
 }
 
 .heroIfoBar{
