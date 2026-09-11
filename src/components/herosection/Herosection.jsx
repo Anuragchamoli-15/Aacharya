@@ -1,5 +1,5 @@
 import style from "./Herosection.module.css"
-import image from "../../assets/image.jpeg"
+import image from "../../assets/image.png"
 
 function Herosection(){
     return(

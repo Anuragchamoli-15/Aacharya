@@ -4,7 +4,7 @@ import ServiceBar from "./servicesection/service2";
 function Items (){
 return(
     <>
-    <Booking></Booking>
+    {/* <Booking></Booking> */}
     <Herosection></Herosection>
     <ServiceBar></ServiceBar>
     </>

@@ -60,7 +60,7 @@ function Services() {
         <div className={style.carts}>
           <img src={no1} alt="piture" />
            <div className={style.infocart}>
-          <h2>Hawan</h2>
+          <h2>ankit</h2>
           <button className={style.btn}>
             {" "}
             <a href="" className={style.innerbtn}>

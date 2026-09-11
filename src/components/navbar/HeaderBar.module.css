@@ -1,62 +1,87 @@
-.head{
-    height: 9vh;
-    position: relative;
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background: rgba(10, 18, 35, 0.96);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.container{
-    position: fixed;
-    width: 100vw;
-    height: 11vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    /* background-color: #272127; */
-    z-index: 1;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 18px 30px 14px;
 }
 
+/* Main Heading */
+.container h1 {
+  margin: 0 0 14px;
 
-.items{
-    display: flex;
-    gap: 3em;
-    list-style: none;
-    margin-right: 2em;
+  color: #d4af37;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: Georgia, "Times New Roman", serif;
+
+  text-align: center;
 }
 
-.items a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+/* Navigation */
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.container h1{
- /* background: linear-gradient(to right, red, blue ); */
- color: #F5F3EE;
- background-clip: text;
- /* color: transparent; */
- font-family: Comic Sans MS,  cursive;
- font-weight: 800;
+/* Links */
+.items a {
+  position: relative;
+
+  color: #f5f1e8;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  transition: color 0.3s ease;
 }
 
+/* Golden underline animation */
+.items a::after {
+  content: "";
 
-@media  (max-width: 480px){
-    .head{
-        height: 11vh;
-    }
-    .container{
-        h1{
-            font-size: 3em;
-        }
-        height: auto;
-        flex-direction: column;
-    padding: 0px;
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+
+  width: 0;
+  height: 2px;
+
+  background: #d4af37;
+  transform: translateX(-50%);
+
+  transition: width 0.3s ease;
 }
 
-        .items{
-            gap: 1.5em;
+.items a:hover {
+  color: #d4af37;
+}
 
-            a{
-                font-size: 16px;
-            }
-        }
+.items a:hover::after {
+  width: 100%;
 }

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .nav{
+            position: relative;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:auto;
+            background-color: black;
+            padding: 25px 20px;
+        }
+        .first{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            gap:15px;
+        }
+        .logo{
+                border:2px solid green;
+                border-radius: 50%;
+                color: white;
+                padding: 10px;
+        }
+        .logoname{
+            color:white;
+        }
+        .second{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            gap:120px;
+
+        }
+        .internship{
+             border-radius: 10px;
+            padding:5px;
+            text-align: center;
+            color: aquamarine;
+            border:2px solid greenyellow;
+        }
+        .course{
+            color:white;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            gap:20px;
+
+        }
+        .course ul {
+             color:white;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            gap:20px;
+            list-style: none;
+        
+            
+         }
+         a {
+            text-decoration:none;
+            color:white;
+         }
+        .third{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            gap:20px;
+        }
+        .number{
+            border-radius: 10px;
+            padding:5px;
+            text-align: center;
+            color: aquamarine;
+            border:2px solid greenyellow;
+        }
+        .demo{
+            border-radius: 10px;
+            padding:5px;
+            text-align: center;
+            color: aquamarine;
+            border:2px solid greenyellow;
+        }
+        .CH{
+            background-color:rgb(3, 22, 86);
+            display:flex;
+            flex-direction: column;
+            width: 50%;
+            overflow: hidden;
+            border-radius: 10px;
+            display:none;
+            position:absolute;
+            right:20px;
+            top:80px;
+        }
+        .upper{
+            display:flex;
+            align-items: flex-start;
+            padding-left: 25px;
+            padding-top: 20px;
+            gap:80px;
+            padding-bottom: 20px;
+
+        }
+        .right ul{
+             color:white;
+             display:flex;
+             flex-direction: column;
+            gap:20px;
+            list-style: none;
+        }
+        .left ul{
+            color:white;
+             display:flex;
+             flex-direction: column;
+            gap:20px;
+            list-style: none;
+        }
+        
+        .bottom{
+            border:2px solid black;
+            display:flex;
+            padding-left: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            gap:20px;
+
+        }
+
+
+
+
+
+
+
+
+
+        
+        .NH{
+            background-color:rgb(3, 22, 86);
+            width: 20%;
+            height: 35%;
+            overflow: hidden;
+            border-radius: 10px;
+            display:none;
+            right:28em;
+            top:0%;
+            position:absolute;
+        }
+        .cityBar{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            list-style: none;
+        }
+      
+        .nav:has(.NM:hover) ~ .NH,.NH:hover {
+              display: block;}
+
+              /* .NM:hover .NH{
+                display: block;
+                color: red;
+              } */
+
+
+
+
+
+
+
+
+        .nav:has(.CM:hover) ~ .CH,.CH:hover{
+            /* background-color: red;
+            color:red; */
+              display: block;
+            }
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="first">
+            <div class="logo"><p>C</p></div>
+            <div class="logoname">CodewareIT</div>
+        </div>
+        <div class="second">
+            <div class="internship"><p>IT Internship 2026 Limited </p></div>
+            <div class="course">
+              <ul>
+                    <li><a href="#">About</a></li>
+                    <li class="cours"><a  href="#">Course</a></li>
+                    <li class="NM"> Near me
+
+
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Internship</a></li>
+                    <li><a href="#">Student</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="third">
+            <div class="number"><p>9837232678</p></div>
+            <div class="demo"><p>Demo</p></div>
+        </div>
+        <div class="CH">
+            <div class="upper">
+                <div class="left">
+                    <ul>
+                        <li><a href="#">📘ICSE</a></li>
+                        <li><a href="#">Class 9 — Java</a></li>
+                        <li><a href="#">Class 10 — Java</a></li>
+                        <li><a href="#">🎓 Graduation</a></li>
+                        <li><a href="#">Java · Python · C · C++ · C# </a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">📗 CBSE</a></li>
+                        <li><a href="#">Class 11 — Python</a></li>
+                        <li><a href="#">Class 12 — Python</a></li>
+                        <li><a href="#">🚀 Job Ready</a></li>
+                        <li><a href="#">MERN Stack</a></li>
+                        <li><a href="#">React JS</a></li>
+                        <li><a href="#">Next.js</a></li>
+                        <li><a href="#">Frontend Dev</a></li>
+                        <li><a href="#">Backend Dev</a></li>
+                        <li><a href="#">Full Stack</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="first1"><a href="#"> All Coding Course </a></div>
+                <div class="second2"><a href="#">NO Coding Course</a></div>
+                <div class="third3"><a href="#">Best It Institue</a></div>
+            </div>
+        </div>
+        
+        <div class="NH">
+            <ul class="cityBar">
+                <li><a href="#">Select Your City</a></li>
+                <li><a href="#">🏔️ Rishikesh</a></li>
+                <li><a href="#">🕉️ Haridwar</a></li>
+                <li><a href="#">🎓 Roorkee</a></li>
+                <li><a href="#">🌿 Mussoorie</a></li>
+                <li><a href="#">🏘️ Vikasnagar</a></li>
+                <li><a href="#">⛪ Paonta Sahib</a></li>
+                <li><a href="#">🌄 Thano</a></li>
+                <li><a href="#">🏡 Premnaga</a></li>
+            </ul>
+        </div>
+    </div>
+    </body>
+    </html>
