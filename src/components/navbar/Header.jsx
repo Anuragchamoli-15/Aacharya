@@ -8,8 +8,6 @@ function HeaderBar() {
             <ul className={style.items}>
                 <li><a href="/">Home</a></li>
                 <li><a href="">Contect</a></li>
-                <li><a href="">empty</a></li>
-                <li><a href="">empty</a></li>
             </ul>
         </nav>
     </header>
