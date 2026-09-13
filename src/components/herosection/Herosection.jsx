@@ -1,5 +1,7 @@
 import style from "./Herosection.module.css"
 import logo from "../../assets/logo.png"
+import swastik from "../../assets/swastik.png"
+
 
  
 
@@ -16,6 +18,16 @@ function Herosection(){
                 <h1>Acharya</h1>
                 <p>|| श्रद्धा से संस्कार ||</p>
             </div>
+            
+            <div className={style.rotateBackground}>
+                <img src={swastik} alt="" />
+                <img src={swastik} alt="" />
+                <img src={swastik} alt="" />
+                <img src={swastik} alt="" />
+                <img src={swastik} alt="" />
+            </div>
+
+            <p className={style.tagLine}>वैदिक परंपराओं एवं सनातन संस्कारों के साथ आपके आधुनिक कार्यों में आध्यात्मिक मार्गदर्शन</p>
             
             <div className={style.dec}>
                 <span>[ श्रद्धा ]</span>
