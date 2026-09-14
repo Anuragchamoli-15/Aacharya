@@ -1,10 +1,14 @@
 import style from "./PanditCard.module.css"
+import chakra from "../../assets/chakra.png";
+
 
 
 function PanditInfoo({ info }) {
   return (
     <main>
       <div className={style.container}>
+        <span className={style.chakra}> <img src={chakra} alt="" /></span>
+       
         <div className={style.innerContainer}> 
             
 

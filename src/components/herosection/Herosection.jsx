@@ -3,6 +3,8 @@ import logo from "../../assets/logo.png"
 import swastik from "../../assets/swastik.png"
 import saturn from "../../assets/saturn.png"
 import Rashi from "../../assets/12-Rashi.png"
+import starsing from "../../assets/starsing.png"
+
 
 
 
@@ -32,7 +34,7 @@ function Herosection(){
             </div>
 
             <p className={style.tagLine}>- वैदिक परंपराओं एवं सनातन संस्कारों के साथ आपके आधुनिक कार्यों में आध्यात्मिक मार्गदर्शन -</p>
-            <p className={` ${style.tagLine} ${style.subTag}`}>कर्मकांड एवं ज्योतिषी का संगम</p>
+            <p className={` ${style.tagLine} ${style.subTag}`}>वैदिक पूजन एवं ज्योतिष का संगम</p>
             
             <div className={style.sevaye}>
                 <p>-- हमारी सेवाएँ --</p>
@@ -50,6 +52,10 @@ function Herosection(){
 
             <div className={` ${style.saturnBg} ${style.rashi} `}>
                 <img src={Rashi} alt="" />
+            </div>
+
+            <div className={style.starsing}>
+                <img src={starsing} alt="" />
             </div>
 </div>
 
