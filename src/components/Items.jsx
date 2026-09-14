@@ -1,14 +1,15 @@
-import Booking from "../components/BookingBar/Booking";
 import Herosection from "../components/herosection/Herosection";
-import ServiceBar from "./servicesection/service2";
-function Items (){
-return(
+// import PanditInfoo from "./PanditInfo/PanditCard";
+import Data from "./PanditInfo/PanditData";
+
+function Items() {
+  return (
     <>
-    {/* <Booking></Booking> */}
-    <Herosection></Herosection>
-    <ServiceBar></ServiceBar>
+      <Herosection></Herosection>
+      {/* <PanditInfoo/>  */}
+      <Data></Data>
     </>
-)
+  );
 }
 
-export default Items
+export default Items;

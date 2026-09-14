@@ -1,0 +1,349 @@
+ @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap");
+
+ /* MAIN SECTION */
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 5px;
+  background-color: #f5e6c8;
+  box-sizing: border-box;
+}
+
+
+   /* INNER CONTAINER */
+.innerContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+
+  box-sizing: border-box;
+}
+
+
+/* CARD */
+.card {
+  width: 100%;
+  min-height: 520px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+
+  overflow: hidden;
+
+  background: #5c1825;  
+
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 25px;
+
+  box-shadow:
+    0 15px 40px rgba(45, 20, 20, 0.25);
+
+  position: relative;
+}
+
+
+   /* RIGHT SIDE - IMAGE */
+
+.panditIntro {
+  width: 42%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 30px;
+
+  box-sizing: border-box;
+
+  background: #4d1420;
+}
+
+
+/* Image */
+
+.panditIntro img {
+  width: 240px;
+  height: 240px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid #d4af37;
+
+  box-shadow:
+    0 0 0 8px rgba(212, 175, 55, 0.12),
+    0 0 35px rgba(212, 175, 55, 0.25);
+}
+
+
+/* Name */
+
+.panditIntro h2 {
+  margin: 22px 0 5px;
+
+  color: #d4af37;
+
+  font-size: 28px;
+  text-align: center;
+
+  font-family: "Noto Serif Devanagari", serif;
+}
+
+
+/* Address */
+
+.panditIntro h3 {
+  margin: 5px 0;
+
+  color: #f5ead2;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+
+/* Gotra */
+
+.panditIntro p {
+  margin-top: 5px;
+
+  color: #e8d8b8;
+
+  font-size: 15px;
+}
+
+
+/* LEFT SIDE - ABOUT */
+.panditAbout {
+  width: 58%;
+
+  padding: 55px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #f5ead2;
+
+  box-sizing: border-box;
+}
+
+
+/* Quote */
+
+.quets {
+  position: relative;
+
+  margin: 0 0 25px;
+
+  padding-left: 20px;
+
+  color: #d4af37;
+
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+
+  font-family: "Noto Serif Devanagari", serif;
+}
+
+
+/* Gold line before quote */
+
+.quets::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: 5px;
+
+  width: 3px;
+  height: 85%;
+
+  background: #d4af37;
+
+  border-radius: 10px;
+}
+
+
+/* Experience / Description */
+
+.panditAbout > p:not(.quets) {
+  color: #f5ead2;
+
+  font-size: 16px;
+  line-height: 1.8;
+
+  margin-bottom: 30px;
+}
+
+
+   /* EXPERTISE */
+.experties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-family: "Noto Serif Devanagari", serif;
+}
+
+
+/* Expertise heading */
+
+.experties h3 {
+  width: 100%;
+  margin: 0 0 5px;
+  color: #d4af37;
+  font-size: 23px;
+}
+
+
+/* Expertise items */
+.experties span {
+  padding: 7px 16px;
+  color: #f5ead2;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 30px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+
+.experties span:hover {
+  background: #d4af37;
+  color: #3a1118;
+
+  transform: translateY(-3px);
+}
+
+
+   /* TABLET */
+@media (max-width: 900px) {
+
+  .container {
+    padding: 45px 20px;
+  }
+
+  .innerContainer {
+    padding: 0 15px;
+  }
+
+  .card {
+    min-height: auto;
+  }
+
+  .panditIntro {
+    width: 40%;
+  }
+
+  .panditAbout {
+    width: 60%;
+
+    padding: 40px 30px;
+  }
+
+  .panditIntro img {
+    width: 190px;
+    height: 190px;
+  }
+
+}
+
+
+   /* MOBILE */
+@media (max-width: 700px) {
+
+  .container {
+    padding: 35px 15px;
+  }
+
+  .innerContainer {
+    padding: 0 5px;
+  }
+
+  .card {
+    flex-direction: column;
+
+    border-radius: 20px;
+  }
+
+
+  /* Image TOP */
+
+  .panditIntro {
+    width: 100%;
+
+    padding: 35px 20px 30px;
+  }
+
+
+  .panditIntro img {
+    width: 170px;
+    height: 170px;
+  }
+
+
+  .panditIntro h2 {
+    font-size: 24px;
+  }
+
+
+  /* Information BELOW */
+
+  .panditAbout {
+    width: 100%;
+
+    padding: 35px 25px 40px;
+  }
+
+
+  .quets {
+    font-size: 18px;
+  }
+
+
+  .experties h3 {
+    font-size: 21px;
+  }
+
+}
+
+
+   /* SMALL MOBILE */
+@media (max-width: 480px) {
+
+  .container {
+    padding: 25px 10px;
+  }
+
+  .innerContainer {
+    padding: 0;
+  }
+
+  .panditIntro img {
+    width: 145px;
+    height: 145px;
+  }
+
+  .panditAbout {
+    padding: 30px 20px;
+  }
+
+  .experties {
+    gap: 8px;
+  }
+
+  .experties span {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+}
