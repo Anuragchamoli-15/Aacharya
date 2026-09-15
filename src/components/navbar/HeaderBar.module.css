@@ -55,3 +55,29 @@
 .items a:hover {
   color: #d4af37;  
 }
+
+
+@media (max-width: 767px) {
+
+  .head {
+    height: 50px;
+  }
+
+  .container {
+    width: 94%;
+    height: 50px;
+  }
+
+  .container h1 {
+    font-size: 21px;
+  }
+
+  .items {
+    gap: 18px;
+  }
+
+  .items a {
+    font-size: 13px;
+  }
+
+}

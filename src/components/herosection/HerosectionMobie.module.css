@@ -1,0 +1,93 @@
+@media (max-width: 767px) {
+
+  .Container {
+    min-height: 70vh;
+    overflow: hidden;
+  }
+
+  /* Hero logo position */
+  .heroLogo {
+    top: 12em;
+  }
+
+  /* Main logo */
+  .logo {
+    width: 120px;
+    height: 120px;
+    top: -6.5em;
+  }
+
+  /* Rotating swastik circle */
+  .rotateBackground {
+    width: 115px;
+    height: 115px;
+    top: 22%;
+  }
+
+  .rotateBackground img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Acharya heading */
+  .heroLogo h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  /* Location / description */
+  .heroLogo p {
+    font-size: 14px;
+    bottom: -2em;
+    white-space: nowrap;
+  }
+
+  /* Main tagline */
+  .tagLine {
+    font-size: 17px;
+    top: 17em;
+    text-align: center;
+    width: 90%;
+  }
+
+  .subTag {
+    top: 18.3em;
+    font-size: 19px;
+  }
+
+  /* श्रद्धा / भक्ति / ज्ञान */
+  .sevaye {
+    bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .sevaye span {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  /* Saturn */
+  .saturnBg {
+    width: 280px;
+    right: -9em;
+    bottom: -2em;
+  }
+
+  /* Rashi */
+  .rashi {
+    width: 250px;
+    height: 250px;
+    left: -9em;
+    top: 15em;
+  }
+
+  /* Stars */
+  .starsing {
+    height: 250px;
+    right: -3em;
+    top: 5em;
+  }
+
+}
