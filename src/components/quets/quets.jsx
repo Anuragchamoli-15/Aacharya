@@ -1,4 +1,5 @@
 import style from "./quets.module.css"
+import { Link } from "react-router-dom";
 
 function Quets() {
   return (
@@ -13,7 +14,7 @@ function Quets() {
         </p>
         <p>जाने अपने धर्म और परंपराओं के बारे में</p>
         <div className={style.dhrmaLink}>
-            <a href="ved">ved</a>
+            <Link to="ved">ved</Link>
             <a href="">puran</a>
             <a href="">krmkand</a>
         </div>
