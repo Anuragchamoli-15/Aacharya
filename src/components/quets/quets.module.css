@@ -1,0 +1,72 @@
+.aboutDhrma {
+  min-height: 50vh;
+  padding: 70px 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: linear-gradient(
+    to bottom,
+    #f7edc5,
+    #fff8df
+  );
+
+  color: #5a1825;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Main paragraph */
+.aboutDhrma p:first-child {
+  max-width: 900px;
+  font-size: 20px;
+  line-height: 1.9;
+  margin: 0 0 30px;
+}
+
+/* Heading / CTA text */
+.aboutDhrma p:nth-child(2) {
+  font-size: 25px;
+  font-weight: 600;
+  color: #7a1f2b;
+  margin: 10px 0 30px;
+}
+
+/* Links container */
+.dhrmaLink {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual links */
+.dhrmaLink a {
+  min-width: 150px;
+  padding: 14px 28px;
+
+  text-decoration: none;
+  color: #6b1e2b;
+
+  border: 1px solid #c9a227;
+  border-radius: 30px;
+
+  background: rgba(255, 255, 255, 0.45);
+
+  font-size: 17px;
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+/* Hover */
+.dhrmaLink a:hover {
+  background: #6b1e2b;
+  color: #f5d76e;
+
+  transform: translateY(-5px);
+
+  box-shadow: 0 8px 20px rgba(107, 30, 43, 0.25);
+}

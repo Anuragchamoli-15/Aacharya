@@ -5,12 +5,14 @@ import App from "./routs/App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Items from "./components/Items.jsx";
 import Cart1 from "./components/Carts/Carts-1.jsx";
+import VedaData from "./components/aboutDhrma/VedaData.jsx";
 
 const router = createBrowserRouter(
   [
   { path: "/Aacharya", element: <App />, children:[
     {index: true, element: < Items/>},
-    {path:"/Aacharya/Hawan/", element:<Cart1/>}
+    {path:"/Aacharya/Hawan", element:<Cart1/>},
+    {path: "/Aacharya/ved", element:<VedaData/>}
   ] },
 ]);
 

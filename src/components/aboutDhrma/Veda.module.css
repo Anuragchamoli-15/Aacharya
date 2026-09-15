@@ -1,0 +1,229 @@
+.vedContainer {
+  min-height: 100vh;
+  padding: 90px 8%;
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(212, 175, 55, 0.12),
+      transparent 45%
+    ),
+    linear-gradient(
+      to bottom,
+      #3d101a,
+      #6b1e2b 45%,
+      #3a0e17
+    );
+
+  color: #f5df91;
+}
+
+
+/* Mysterious light effect */
+.vedContainer::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+
+  left: 50%;
+  top: 45%;
+
+  transform: translate(-50%, -50%);
+
+  background: radial-gradient(
+    circle,
+    rgba(212, 175, 55, 0.13),
+    transparent 65%
+  );
+
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+
+/* Heading section */
+.vedHeading {
+  position: relative;
+  z-index: 1;
+
+  max-width: 850px;
+  margin: 0 auto 70px;
+
+  text-align: center;
+}
+
+
+/* Veda heading */
+.vedHeading h2 {
+  font-size: 55px;
+  margin-bottom: 15px;
+
+  color: #d4af37;
+
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 0 10px rgba(212, 175, 55, 0.4),
+    0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+
+/* Intro paragraph */
+.vedHeading p {
+  color: #ead9a1;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+/* "Vedo ke prakaar" */
+.vedHeading h3 {
+  margin-top: 45px;
+  margin-bottom: 8px;
+
+  font-size: 28px;
+  color: #d4af37;
+
+  letter-spacing: 2px;
+}
+
+
+/* Main Veda card */
+.veds {
+  position: relative;
+  z-index: 1;
+
+  max-width: 1400px;
+  min-height: 420px;
+
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding: 40px;
+
+  border: 1px solid rgba(212, 175, 55, 0.45);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(30, 5, 10, 0.8),
+      rgba(107, 30, 43, 0.35)
+    );
+
+  box-shadow:
+    0 0 30px rgba(0, 0, 0, 0.45),
+    inset 0 0 30px rgba(212, 175, 55, 0.04);
+
+  backdrop-filter: blur(8px); 
+
+  margin-bottom: 30px;
+
+}
+
+
+/* Ancient corner effect */
+.veds::before,
+.veds::after {
+  content: "";
+  position: absolute;
+
+  width: 35px;
+  height: 35px;
+
+  border-color: #d4af37;
+  border-style: solid;
+}
+
+.veds::before {
+  top: -1px;
+  left: -1px;
+
+  border-width: 2px 0 0 2px;
+}
+
+.veds::after {
+  bottom: -1px;
+  right: -1px;
+
+  border-width: 0 2px 2px 0;
+}
+
+
+/* Image section */
+.vedImg {
+  width: 40%;
+  text-align: center;
+}
+
+
+.vedImg img {
+  width: 230px;
+  height: 280px;
+
+  object-fit: cover;
+
+  border: 1px solid rgba(212, 175, 55, 0.6);
+
+  padding: 8px;
+
+  background: #2c0911;
+
+  box-shadow:
+    0 0 20px rgba(212, 175, 55, 0.12),
+    0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+
+.vedImg h3 {
+  margin-top: 18px;
+
+  font-size: 30px;
+
+  color: #d4af37;
+
+  letter-spacing: 3px;
+
+  text-shadow:
+    0 0 12px rgba(212, 175, 55, 0.3);
+}
+
+
+/* Information */
+.vedAbout {
+  flex: 1;
+}
+
+
+.vedAbout p:first-child {
+  color: #d4af37;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+
+.vedAbout p:nth-child(2) {
+  color: #e8d9aa;
+
+  font-size: 17px;
+
+  line-height: 1.9;
+}
+
+
+.vedAbout p:nth-child(3) {
+  margin-top: 25px;
+
+  color: #cdbb82;
+
+  line-height: 1.8;
+}
