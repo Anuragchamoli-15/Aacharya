@@ -9,7 +9,7 @@ import VedaData from "./components/aboutDhrma/VedaData.jsx";
 
 const router = createHashRouter(
   [
-  { path: "/Aacharya", element: <App />, children:[
+  { path: "/", element: <App />, children:[
     {index: true, element: < Items/>},
     {path:"Hawan", element:<Cart1/>},
     {path: "ved", element:<VedaData/>}
