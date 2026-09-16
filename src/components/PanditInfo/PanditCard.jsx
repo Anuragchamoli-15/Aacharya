@@ -17,7 +17,7 @@ function PanditInfoo({ info }) {
               <h2> {info.name}</h2>
               <h3> {info.addres}</h3>
               <p>{info.gotr}</p>
-              <a href="tel:+919876543210" className={style.callBtn}>
+              <a href="tel:+917818895093" className={style.callBtn}>
                  Call Now
               </a>
             </div>
