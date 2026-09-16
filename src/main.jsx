@@ -6,13 +6,15 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import Items from "./components/Items.jsx";
 import Cart1 from "./components/Carts/Carts-1.jsx";
 import VedaData from "./components/aboutDhrma/VedaData.jsx";
+import Puran from "./components/aboutDhrma/Puran.jsx";
 
 const router = createHashRouter(
   [
   { path: "/", element: <App />, children:[
     {index: true, element: < Items/>},
     {path:"Hawan", element:<Cart1/>},
-    {path: "ved", element:<VedaData/>}
+    {path: "ved", element:<VedaData/>},
+    {path: "puran", element: <Puran/>}
   ] },
 ]);
 

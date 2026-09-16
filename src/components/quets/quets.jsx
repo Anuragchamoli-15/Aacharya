@@ -15,7 +15,7 @@ function Quets() {
         <p>जाने अपने धर्म और परंपराओं के बारे में</p>
         <div className={style.dhrmaLink}>
             <Link to="ved">ved</Link>
-            <a href="">puran</a>
+            <Link to ="puran">puran</Link>
             <a href="">krmkand</a>
         </div>
       </div>

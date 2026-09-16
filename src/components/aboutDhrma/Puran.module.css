@@ -1,0 +1,183 @@
+.vedContainer {
+  min-height: 100vh;
+  padding: 70px 20px;
+  background: #6b1e2b;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Heading section */
+.vedHeading {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 50px;
+}
+
+.vedHeading h2 {
+  color: #d4af37;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.vedHeading p {
+  color: #f5e6b3;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.vedHeading h3 {
+  color: #d4af37;
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+
+/* Main Puran card */
+.veds {
+  max-width: 1000px;
+  min-height: 400px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 22px;
+
+  backdrop-filter: blur(8px);
+
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.3),
+    inset 0 0 25px rgba(212, 175, 55, 0.08);
+
+  transition: 0.4s ease;
+}
+
+.veds:hover {
+  transform: translateY(-6px);
+
+  border-color: #d4af37;
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.35),
+    0 0 25px rgba(212, 175, 55, 0.15);
+}
+
+
+/* Image side */
+.vedImg {
+  width: 38%;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.vedImg img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+
+  border-radius: 18px;
+
+  border: 2px solid #d4af37;
+
+  box-shadow:
+    0 0 20px rgba(212, 175, 55, 0.2);
+
+  display: block;
+}
+
+.vedImg h3 {
+  color: #d4af37;
+  font-size: 28px;
+  margin-top: 18px;
+}
+
+
+/* Information side */
+.vedAbout {
+  flex: 1;
+}
+
+.vedAbout p {
+  color: #f5eeee;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+
+/* Key points */
+.vedAbout p:last-child {
+  color: #f3df9b;
+  padding-left: 15px;
+  border-left: 3px solid #d4af37;
+}
+
+
+/* Tablet */
+@media (max-width: 800px) {
+
+  .veds {
+    gap: 25px;
+    padding: 25px;
+  }
+
+  .vedImg {
+    width: 42%;
+  }
+
+  .vedImg img {
+    height: 230px;
+  }
+
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .vedContainer {
+    padding: 50px 15px;
+  }
+
+  .vedHeading h2 {
+    font-size: 32px;
+  }
+
+  .vedHeading h3 {
+    font-size: 23px;
+  }
+
+  .vedHeading p {
+    font-size: 14px;
+  }
+
+  .veds {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .vedImg {
+    width: 100%;
+  }
+
+  .vedImg img {
+    height: 220px;
+  }
+
+  .vedImg h3 {
+    font-size: 25px;
+  }
+
+  .vedAbout p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
