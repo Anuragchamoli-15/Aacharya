@@ -134,6 +134,16 @@
   font-size: 15px;
 }
 
+/* CALL BUTTON  */
+.callBtn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #c99a3d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
 /* LEFT SIDE - ABOUT */
 .panditAbout {
   width: 58%;
