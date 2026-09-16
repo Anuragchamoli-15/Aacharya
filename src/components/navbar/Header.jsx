@@ -1,4 +1,6 @@
 import style from "./HeaderBar.module.css"
+import { Link } from "react-router-dom";
+
 
 function HeaderBar() {
   return (
@@ -6,7 +8,7 @@ function HeaderBar() {
         <nav className={style.container}>
                 <h1>Acharya</h1>
             <ul className={style.items}>
-                <li><a href="/">Home</a></li>
+                <li><Link to href="/">Home</Link></li>
                 <li><a href="">Contect</a></li>
             </ul>
         </nav>

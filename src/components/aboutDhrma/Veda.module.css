@@ -227,3 +227,91 @@
 
   line-height: 1.8;
 }
+
+
+
+@media (max-width: 767px) {
+
+  .vedContainer {
+    padding: 70px 5% 50px;
+  }
+
+  .vedHeading {
+    margin-bottom: 40px;
+  }
+
+  .vedHeading h2 {
+    font-size: 38px;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+  }
+
+  .vedHeading p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .vedHeading h3 {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+
+
+  /* Veda card */
+  .veds {
+    min-height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 20px;
+    margin-bottom: 25px;
+  }
+
+
+  /* Image */
+  .vedImg {
+    width: 100%;
+  }
+
+  .vedImg img {
+    width: 180px;
+    height: 220px;
+  }
+
+  .vedImg h3 {
+    margin-top: 12px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+
+  /* Information */
+  .vedAbout {
+    width: 100%;
+    text-align: center;
+  }
+
+  .vedAbout p:first-child {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+
+  .vedAbout p:nth-child(2) {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .vedAbout p:nth-child(3) {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* Light effect */
+  .vedContainer::before {
+    width: 300px;
+    height: 300px;
+  }
+}
