@@ -43,7 +43,7 @@ function Herosection() {
         <div className={`${style.sevaye} ${mobileStyle.sevaye}`}>
           <p>-- हमारी सेवाएँ --</p>
 
-          <div>
+          <div className={mobileStyle.workBox}>
             <span>[ वैदिक पद्धति कर्मकांड ]</span>
             <span>[ ज्योतिषी ]</span>
             <span>[ धार्मिक मार्गदर्शन ]</span>
