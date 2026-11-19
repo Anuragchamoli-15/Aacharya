@@ -262,11 +262,11 @@ function Puran (){
 
      <div className={style.vedContainer}>
         <div className={style.vedHeading}>
-          <h2>Puran</h2>
-          <p>kya hai humare Puran or kya hai inka humre zivan pr asra </p>
+          <h2>पुराण</h2>
+          {/* <p>kya hai humare Puran or kya hai inka humre zivan pr asra </p> */}
 
-          <h3>Puran kitne hai</h3>
-          <p>Puran 18 Hai</p>
+          {/* <h3>Puran kitne hai</h3> */}
+          {/* <p>Puran 18 Hai</p> */}
         </div>
       {puranData.map((puran) => (
         <PuranCard key={puran.id} data={puran} />

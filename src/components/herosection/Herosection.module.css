@@ -250,7 +250,7 @@
 }
 .saturnBg img{
   width: 100%;
-  opacity: 0.05;
+  opacity: 0.15;
 }
 
 /* RASHI  */
@@ -265,7 +265,7 @@
   animation: rotateRashi 100s linear infinite;
 }
 .rashi img{
-  opacity: 0.2;
+  opacity: 0.4;
   width: 100%;
   object-fit: cover;
 }

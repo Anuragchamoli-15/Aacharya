@@ -12,7 +12,7 @@
 .container {
   width: 90%;
   max-width: 1400px;
-  height: 45px;
+  height: 55px;
 
   margin: auto;
   display: flex;
@@ -36,7 +36,7 @@
 
   display: flex;
   align-items: center;
-  gap: 65px;
+  gap: 35px;
 
   list-style: none;
 }

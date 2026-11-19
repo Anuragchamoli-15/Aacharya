@@ -69,11 +69,11 @@ function VedaData() {
 
   <div className={style.vedContainer}>
         <div className={style.vedHeading}>
-          <h2>veda</h2>
-          <p>kya hai humare ved or kya hai inka humre zivan pr asra </p>
+          <h2>वेद</h2>
+          <p>सदियों से चली आ रही हमारी परंपरा का मूल हमारे वेद हैं </p>
 
-          <h3>vedo ke perkaar</h3>
-          <p>vedo ke char parkar hai jo niche diye gaye hai</p>
+          {/* <h3>vedo ke perkaar</h3> */}
+          {/* <p>vedo ke char parkar hai jo niche diye gaye hai</p> */}
         </div>
 
       {vedData.map((ved) => (
